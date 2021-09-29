@@ -1,0 +1,159 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    margin: 0px auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+  /* header */
+
+header {
+    padding: 55px 45px;
+    background-color: black;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+.logo{
+    margin-top: 80px;
+    margin-left: 80px;
+    height: 40px;
+    width: 12rem;
+    background-color:white;
+    color: aliceblue;
+    filter: invert(100%);
+
+}
+
+.bar1 {
+    width: 21px;
+    height: 2px;
+    background-color: #fff;
+    margin: 24px 4px 0;
+}
+.bar2 {
+    width: 21px;
+    height: 2px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+.bar3 {
+    width: 16px;
+    height: 2px;
+    background-color: #fff;
+    margin: 4px 0;
+    transform: rotate(180deg);
+}
+
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+}
+
+.logo{
+    height: 41px;
+    width: 160px;
+    margin: 12px;
+    background-color: white;
+    filter: invert(100%);
+}
+
+
+.nav-content {
+    width: 100%;
+    margin-left: 22%;
+}
+
+ol,ul {
+	list-style: none;
+}
+#mainMenu {
+	margin: 8px;
+	font-family: sans-serif;
+}
+#mainMenu li {
+	display:flex;
+    justify-content: flex-end;
+	width:120px;
+	float:left;
+	margin-left:10px;
+}
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+}
+
+
+/* footer */
+
+
+
+footer{
+    padding-top: 120px;
+    padding-bottom: 80px;
+    background-color:#161f1e;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+
+}
+
+img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(336deg) brightness(101%);
+    margin-left: 15%;
+}
+
+.footer-list{
+    margin-top: -20px;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1.4fr;
+}
+
+.list-1{
+    margin-left: 0px;
+}
+
+.list-2{
+    margin-left: 20px;
+}
+
+.list-3{
+    margin-left: 0px;
+}
+
+.element{
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+
+.mail:link{
+    color: #fff;
+}
+
+.copyright{
+    color: #FFFFFFBF;
+    margin-left: 15%;
+    font-size: 15px;
+}
