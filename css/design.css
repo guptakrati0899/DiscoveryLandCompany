@@ -14,6 +14,7 @@ body {
 header {
     background-color: rgb(24, 23, 23);
     padding: 45px 45px;
+    padding-bottom: 100px;
 }
 
 .container {
@@ -29,7 +30,6 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 80%;
 }
 
 .logo{
