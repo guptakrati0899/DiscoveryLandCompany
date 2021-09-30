@@ -13,55 +13,65 @@ body {
 
 header {
     background-color: rgb(24, 23, 23);
-    padding: 45px 45px;
     padding-bottom: 100px;
 }
 
-.container {
-    display: inline-block;
-    cursor: pointer;
+
+.item-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.logo-container {
-    font-size: 0;
-}
+
 
 .logo-content {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width:25%;
 }
 
 .logo{
-    margin: 15px;
-    padding: 0px 12px;
-    padding-left: 6.5rem;
-    padding-top: 3px;
+    
+    padding-left: 15%;
     height: 40px;
-    width: 12rem;
+    width: 10rem;
     filter: invert(100%) sepia(0%) saturate(0%) brightness(200%) contrast(100%);
 
 }
 
-
-.logo-text {
-    margin-left: -3rem;
-    font-size: 24px;
-    color: #fff;
+.header-content {
+    min-height: 90px;
+    display: flex;
+    width: 100%;
+    align-items: center;
 }
 
-.logo-company {
+.nav-content {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
     color: #fff;
-    font-size: 8px;
-    letter-spacing: 2px;
-    align-items: right;
+    font-size:18px;
+}
+
+.container{
+    display:none;
 }
 
 .bar1 {
     width: 21px;
     height: 2px;
     background-color: #fff;
-    margin: 22px 4px 0;
 }
 .bar2 {
     width: 21px;
@@ -75,50 +85,6 @@ header {
     background-color: #fff;
     margin: 4px 0;
     transform: rotate(180deg);
-}
-
-
-.header-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 80%;
-}
-
-
-.nav-content {
-    width: 100%;
-    margin-left: 10%;
-}
-
-ol,ul {
-	list-style: none;
-}
-#mainMenu {
-	margin: 8px;
-	font-family: sans-serif;
-}
-#mainMenu li {
-	display:flex;
-    justify-content: flex-end;
-	width:120px;
-	float:left;
-	margin-left:10px;
-}
-#mainMenu a {
-	display:block;
-	padding:3px;
-	text-decoration:none;
-    cursor: pointer;
-    color: #fff;
-    font-size: 1rem;
 }
 
 
