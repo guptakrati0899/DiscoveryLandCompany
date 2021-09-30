@@ -65,7 +65,7 @@ a{
 }
 
 .container{
-    display:none;
+    display:block;
 }
 
 .bar1 {
@@ -109,7 +109,7 @@ footer{
 
 .footer-list{
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 .list-1{
@@ -130,7 +130,7 @@ a{
     cursor: pointer;
 }
 .element{
-    margin-bottom: 20px;
+    margin-bottom:20px;
 
 }
 
@@ -142,4 +142,11 @@ a{
     color: #FFFFFFBF;
     margin-left: 15%;
     font-size: 15px;
+}
+
+@media screen and (max-width:600px) {
+    .div-items {
+        display: none;
+    }    
+
 }

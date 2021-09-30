@@ -1,6 +1,7 @@
 html {
     height: 100%;
     width: 100%;
+
 }
 
 body {
@@ -8,7 +9,9 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
+
 
 .main{
 
@@ -58,4 +61,65 @@ body {
     line-height: 1;
     margin-top: .30rem;
 
+}
+
+
+/* Media Queries */
+
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    .main {
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-gap: 8px;
+        width: 95%;
+        height: 550%;
+        padding: 10px;
+    }
+    .logo {
+        width: 30vw;
+    }
+    .fimg {
+        height : 35px;
+        margin-right: 10%;
+        padding-bottom: 14rem;
+    }
+
+    .list-1,.list-2,.list-3 {
+        margin-left: -2px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+    .item1,.item2{
+        font-size: 0.8rem;
+    }
+    
+    .container{
+        margin-left: 50%;
+    }
+
+}
+@media screen and (min-width: 240px) and (max-width: 320px) {
+    .main{
+        grid-template-columns: 1fr;
+        width: 91%;
+        height: 1400%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main {
+        width: 96.5%;
+        height: 257%;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    a{
+        font-size: 15px;
+    }
+    
 }
