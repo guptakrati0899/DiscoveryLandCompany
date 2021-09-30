@@ -31,7 +31,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width:25%;
+    width:30%;
 }
 
 .logo{
@@ -51,7 +51,7 @@ header {
 }
 
 .nav-content {
-    width: 75%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -93,42 +93,45 @@ a{
 
 
 footer{
+    width: 100%;
     padding-top: 120px;
-    padding-bottom: 80px;
-    background-color:#161f1e;
-    display: grid;
-    grid-template-columns: 1fr 1.2fr;
+    padding-bottom: 100px;
+    background-color: #161f1e;
 
 }
+
 
 .fimg{
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(336deg) brightness(101%);
-    margin-left: 15%;
+    margin-right: 20%;
+    height: 50px;
 }
 
 .footer-list{
-    margin-top: -20px;
-    display: grid;
-    grid-template-columns: 1.2fr 1fr 1.4fr;
+    display: flex;
+    justify-content:center;
 }
 
 .list-1{
-    margin-left: 0px;
+    margin-left: 10%;
+
 }
 
 .list-2{
-    margin-left: 20px;
+    padding-left: 5%;
 }
 
 .list-3{
-    margin-left: 0px;
+    padding-left: 5%;
 }
-
-.element{
-    margin-bottom: 20px;
+a{
     font-size: 17px;
     color: white;
     cursor: pointer;
+}
+.element{
+    margin-bottom: 20px;
+
 }
 
 .mail:link{
