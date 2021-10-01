@@ -56,55 +56,77 @@ html, body {
 
 /* Media Queries */
 
-/* Tablets */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .item-container {
-        top: -30%;
-        left: -12%;
-    }
-    .header-content {
-        height: 35%;
-    }
-    .gmain-content {
-        height: 55%;
-    }
-    .gitems {
-        font-size: 3rem;
-    }
-}
 
-/* Mobiles */
 @media screen and (min-width: 360px) and (max-width: 640px) {
-    .gmain-content {
-        grid-template-columns: 1fr 1fr;
+    .gallery-content {
+        grid-template-columns: 0.7fr 0.7fr;
+        height: 95%;
     }
     .item-container {
         top: -31%;
-        left: -19%;
     }
     .header-content {
         height: 35%;
     }
-    .gmain-content {
-        height: 95%;
-    }
-    .gitems {
+
+    .gallery-item  {
         font-size: 1.67rem;
-        bottom: 79px;
-        left: 62px;
+        bottom: 60px;
+        left: 70px;
     }
-    .gtitle {
+    .title {
         font-size: 0.9rem;
     }
     .footer-container {
         height: 68%;
     } 
+    .logo {
+        width: 30vw;
+    }
+    .fimg {
+        height : 35px;
+        margin-right: 10%;
+        padding-bottom: 14rem;
+    }
+
+    .list-1,.list-2,.list-3 {
+        margin-left: -2px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+
+    .container{
+        margin-left: 50%;
+    }
+
 }
 
-/* Mini Phones */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .item-container {
+        top: -30%;
+        left: -3%;
+    }
+    .header-content {
+        height: 35%;
+    }
+    .gallery-content {
+        height: 55%;
+    }
+    .gallery-item {
+     
+        font-size: 3rem;
+    }
+}
+
 @media screen and (min-width: 240px) and (max-width: 320px) {
-    .gmain-content {
+    .gallery-content {
         grid-template-columns: 1fr;
+        height: 27%;
     }
     .item-container {
         top: -31%;
@@ -113,10 +135,7 @@ html, body {
     .header-content {
         height: 27%;
     }
-    .gmain-content {
-        height: 380%;
-    }
-    .gitems {
+    .gallery-items {
         font-size: 1.4rem;
         bottom: 50px;
         left: 50px;
