@@ -103,7 +103,8 @@ footer{
 
 .fimg{
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(336deg) brightness(101%);
-    margin-right: 20%;
+    margin-right: 10%;
+    margin-left: 15rem;
     height: 50px;
 }
 
@@ -112,17 +113,22 @@ footer{
     justify-content: center;
 }
 
+.footer-main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  
+}
 .list-1{
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    width: 100%;
+    margin-left: 20rem;
 
 }
 
-.list-2{
-    padding-left: 5%;
-}
 
 .list-3{
-    padding-left: 5%;
+    padding-left: 30%;
 }
 a{
     font-size: 17px;
@@ -141,6 +147,7 @@ a{
 
 .copyright{
     color: #FFFFFFBF;
+    margin-top: 100px;;
     margin-left: 15%;
     font-size: 15px;
 }
@@ -150,4 +157,96 @@ a{
         display: none;
     }    
 
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  
+    .element{
+        margin-bottom:5px;
+    
+    }
+  
+    .fimg {
+        height : 30px;
+        width: 30px;
+        margin-left: 2rem;
+    
+    }
+    footer{
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    
+    }
+    
+    .copyright{
+        margin-top: 20px;
+    }
+    .footer-list{
+        flex-flow:column;
+        align-items: unset;
+    }
+
+    .list-1{
+        margin-left: 2rem;
+        margin-top: 30px;
+    }
+
+    .list-3{
+        margin-left: -20px;
+    }
+    .footer-main{
+        margin-top: 40px;
+        margin-left: 2rem;
+
+    }
+    a{
+        font-size: 12px;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+    .item1,.item2{
+        font-size: 0.8rem;
+    }
+    
+    .container{
+        margin-left: 50%;
+    }
+
+}
+@media screen and (min-width: 240px) and (max-width: 320px) {
+    
+    .element{
+        margin-bottom:5px;
+    
+    }
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   
+    .list-1{
+        margin-left: -1rem;
+        margin-top: 10px;
+    }
+    
+    .fimg {
+        height : 50px;
+        width: 50px;
+        margin-left: 8rem;
+    
+    }
+
+    
+    .list-3{
+        margin-left: -30px;
+    }
+
+    a{
+        font-size: 18px;
+    }
+    
 }

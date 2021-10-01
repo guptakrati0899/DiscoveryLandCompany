@@ -77,28 +77,12 @@ html, body {
     .title {
         font-size: 0.9rem;
     }
-    .footer-container {
-        height: 68%;
-    } 
-    .logo {
-        width: 30vw;
-    }
-    .fimg {
-        height : 35px;
-        margin-right: 10%;
-        padding-bottom: 14rem;
-    }
 
-    .list-1,.list-2,.list-3 {
-        margin-left: -2px;
-    }
+
     a{
         font-size: 10px;
     }
-    .copyright{
-        font-size: 10px;
-    }
-
+    
     .container{
         margin-left: 50%;
     }

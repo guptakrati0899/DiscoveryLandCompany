@@ -75,20 +75,47 @@ body {
         height: 550%;
         padding: 10px;
     }
-    .logo {
-        width: 30vw;
+    .element{
+        margin-bottom:5px;
+    
     }
+  
     .fimg {
-        height : 35px;
-        margin-right: 10%;
-        padding-bottom: 14rem;
+        height : 30px;
+        width: 30px;
+        margin-left: 2rem;
+    
+    }
+    footer{
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    
+    }
+    
+    .copyright{
+        margin-top: 20px;
+    }
+    .footer-list{
+        flex-flow:column;
+        align-items: unset;
     }
 
-    .list-1,.list-2,.list-3 {
-        margin-left: -2px;
+    .list-1{
+        margin-left: 2rem;
+        margin-top: 30px;
+    }
+
+    .list-3{
+        margin-left: -20px;
+    }
+    .footer-main{
+        margin-top: 40px;
+        margin-left: 2rem;
+
     }
     a{
-        font-size: 10px;
+        font-size: 12px;
     }
     .copyright{
         font-size: 10px;
@@ -106,8 +133,13 @@ body {
     .main{
         grid-template-columns: 1fr;
         width: 91%;
-        height: 1400%;
+        height: 140%;
     }
+    .element{
+        margin-bottom:5px;
+    
+    }
+  
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -117,9 +149,25 @@ body {
         grid-gap: 15px;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .list-1{
+        margin-left: -1rem;
+        margin-top: 10px;
+    }
+    
+    .fimg {
+        height : 50px;
+        width: 50px;
+        margin-left: 8rem;
+    
+    }
+
+    
+    .list-3{
+        margin-left: -30px;
+    }
 
     a{
-        font-size: 15px;
+        font-size: 18px;
     }
     
 }
