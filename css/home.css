@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x:  hidden;
+}
+
+.header-video{
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+  
+}
+header{
+    position: absolute;
+    width: 100%;
+    background-color: initial;
+    z-index: 3;
+}
+
+.hvideo{
+    height:50%;
+    width : 100%;
+
+
+}
+.header-text{
+    position: absolute;
+    z-index: 4;
+    margin-left: 25%;
+    margin-top: 32vh;
+    font-size: 6rem;
+    color: #fff;
+    font-family: 'Benne', serif;
+}
+
+.header1-text{
+    position: absolute;
+    z-index: 4;
+    margin-left: 25%;
+    margin-top: 42vh;
+    font-size: 6rem;
+    color: #fff;
+    font-family: 'Benne', serif;
+}
+
+
+.content-1{
+    display: flex;
+    height: 1000px;
+    background-image : url("https://dxaurk9yhilm4.cloudfront.net/images/287/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg");
+    width: 100%;
+    background-position: 67%;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.left-content{
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+}
+.right-content{
+    display:flex;
+    flex-direction: column;
+    width:60%;
+}
+
+.img-right{
+    padding-top: 8rem;
+    padding-left: 12rem;
+    width:60%;
+    height: 70%;
+}
+
+.text-1{
+    padding-top: 120px;
+    color: black;
+    font-size: 40px;
+
+    margin-left: 20%;
+}
+
+
+.text-content{
+    padding-top: 1.5rem;
+    margin-left: 20%;
+    margin-right: 18%;
+    font-family:sans-serif;
+    color:grey;
+    font-size: 15px;
+}
+.img-left{
+    height:60%;
+    width:90%;
+    margin-left: 15%;
+    padding-top: 12rem;
+}
+
+
+
+
+
+
+
