@@ -169,5 +169,53 @@ function home_images(){
     });
     
     document.querySelector('.slide-track').innerHTML = content;
+}
+
+
+
+
+
+function videoImage1() {
+    const content = `<div video1">
+    <video class="img_v1" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236"  data-length=""  muted loop autoplay playsinline></video>
+    <button class="closebtn" onclick="document.querySelector('#img_video1').innerHTML=''">&times;</button>
+    </div>
+  <h1 class="v_title">Experiences</h1>
+  <p class="p_text">
+    Experience the ultimate round of golf on championship courses designed by the world’s most highly acclaimed architects or take a thrilling adventure with limitless activities for everyone to enjoy.
+  </p>
+  <button type="button" class="btn">Explore</button>`
+
+  document.querySelector('#img_video1').innerHTML = content;
+
+}
+
+function videoImage2() {
+    const content = `<div video1">
+    <video class="img_v2"../Assets/home/video2.mp4" data-length="" muted loop autoplay playsinline></video>
+    <button class="closebtn" onclick="document.querySelector('#img_video2').innerHTML=''">&times;</button>
+    </div>
+  <h1 class="v_title">Lifestyle</h1>
+  <p class="p_text">
+  Relish the very best times of your life with the ones you love in our bespoke communities that cater to a family orientated lifestyle through unparalleled amenities and inspired experiences. 
+  </p>
+  <button type="button" class="btn">Explore</button>`
+
+  document.querySelector('#img_video2').innerHTML = content;
+
+}
+
+function videoImage3() {
+    const content = `<div video1">
+    <video class="img_v3" src="../Assets/home/video3.mp4" data-length="" muted loop autoplay playsinline></video>
+    <button class="closebtn" onclick="document.querySelector('#img_video3').innerHTML=''">&times;</button>
+    </div>
+  <h1 class="v_title">Wellness</h1>
+  <p class="p_text">
+  Relax and refresh your body and your mind in exquisite surroundings. Escape to our stunning pools, unwind in relaxing spas and explore innovative international culinary offerings.
+  </p>
+  <button type="button" class="btn">Explore</button>`
+
+  document.querySelector('#img_video3').innerHTML = content;
 
 }
