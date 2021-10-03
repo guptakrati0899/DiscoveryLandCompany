@@ -99,8 +99,72 @@ header{
 }
 
 
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.htext{
+    font-size: 50px;
+    font-family: 'Benne', serif ;
+}
 
+.left-arrow,.right-arrow{
+    margin-left: 20px;
+    height:50%;
+    width: 10%;
+    cursor: pointer;
+}
+.arrows{
+    display: flex;
+    margin-top: 10rem;
+    justify-content: flex-end;
+   
+}
 
+.world-map{
+   
+    height: 1210px;
+    margin-left: -20rem;
+    background-position: 100%;
+    width: 94%;
+    background-image:url("https://discoverylandco.com/static/globe-usa.jpg");
 
+}
 
+.globe{
+    background-color: whitesmoke;
+}
+.gtext1,.gtext2{
+    margin-left: 14rem;
+    font-size: 45px;
+}
+.gtext1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.gtext2{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.description{
+    padding-top: 10px;
+    font-size: 15px;
+    margin-left: 10.5rem;
+    color: grey;
+}
+
+.places{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 10.5rem;
+    font-size: 15px;
+
+}
+
+p{
+    margin-left: 60px;
+}
+
+.place-box{
+    background-color: rgb(23, 23,23);
+}
