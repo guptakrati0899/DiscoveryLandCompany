@@ -322,10 +322,11 @@ p{
     margin-top: 70%;
     z-index: 2;
     filter:invert();
-    /* border: 2px;
-    border: solid; */
+   
 
 }
+
+/* black-box */
 .arr{
     cursor: pointer;
     filter:invert();
@@ -335,6 +336,12 @@ p{
     align-items: center;
     position: relative;
     justify-content: space-evenly;
+}
+
+.r-arrow,.l-arrow{
+    padding-left: 30px;
+    height:40px;
+    width:40px;
 }
 
 .weather{
@@ -411,11 +418,8 @@ p{
     padding-top: 65px;
     padding-left: 20px;
 }
-.r-arrow,.l-arrow{
-    padding-left: 30px;
-    height:40px;
-    width:40px;
-}
+
+/* content-5 */
 .video-home{
     width:100%;
 }
