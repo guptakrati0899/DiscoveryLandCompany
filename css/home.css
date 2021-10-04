@@ -13,6 +13,7 @@ html, body {
   
 }
 header{
+    display: block;
     position: absolute;
     width: 100%;
     background-color: initial;
@@ -20,8 +21,10 @@ header{
 }
 
 .hvideo{
-    height:50%;
-    width : 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 
 
 }
@@ -98,6 +101,15 @@ header{
     width:90%;
     margin-left: 15%;
     padding-top: 12rem;
+}
+.img-screen{
+    padding-top: 2rem;
+    padding-left: 7rem;
+    width:60%;
+    height: 70%;
+    display:none;
+   
+
 }
 
 
@@ -269,6 +281,132 @@ p{
     margin-left: 76%;
 }
 
+/* Media-screens-blackbox */
+
+.bb-image1{
+    margin-left: 60%;
+    position: absolute;
+    z-index: 10;
+    width: 30vw;
+    height: 83vh;
+
+   
+}
+.black-box1{
+    display:none;
+    position:relative;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    height: 100%;
+}
+
+
+
+.bb-details1{
+
+    background-color:#161F1E;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+   
+  
+}
+
+.content-box1{
+    margin-left: 10%;
+}
+.arr1{
+    cursor: pointer;
+    filter:invert();
+    height:110px;
+    width:110px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.r-arrow1,.l-arrow1{
+    padding-left: 30px;
+    height:40px;
+    width:40px;
+}
+
+.weather1{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    height: 20vh;
+    width: 40vw;
+}
+.img-sun1{
+    filter:invert();
+    width: 2vw;
+
+}
+.img-wind1{
+    filter:invert();
+    width: 2.3vw;
+
+}
+.img-direction1{
+    filter:invert();
+    width: 2vw;
+}
+
+
+
+.wind1,.direction1{
+    margin-left: 4rem;
+
+}
+.direction1{
+    margin-left: 4rem;
+
+}
+
+.temp-value1,.direction-value1,.wind-value1{
+    color:white;
+}
+.temp1{
+    margin-left: 2rem;
+   
+}
+
+.Heading1{
+    display:flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 40vw;
+}
+
+.stext-value1{
+    font-size: 1.2rem;
+    color: grey;
+    padding: 58px;
+}
+.btext-value1{
+    color:white;
+    font-size: 3rem;
+    padding-left: 55px;
+    font-family:  'Benne', serif ;
+}
+.location1{
+    display: flex;
+}
+.location-icon1{
+    filter:invert();
+    width: 1.5vw;
+    padding-top: 60px;
+    padding-left: 55px;
+    
+}
+.location-text1{
+    color: white;
+    padding-top: 65px;
+    padding-left: 18px;
+}
 
 
 
@@ -290,8 +428,22 @@ p{
     width: 100%;
     position: absolute;
 }
+.img3{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
 
-.img-5 > h1{
+.experiences{
+    position: absolute;
+    margin-top: 55%;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 40px;
+    z-index: 2;
+}
+.lifestyle,.wellness{
     position: absolute;
     margin-top: 55%;
     color: #fff;
@@ -302,7 +454,7 @@ p{
 }
 
 .experiences{
-    margin-left: 20%;
+    margin-left: 25%;
 }
 
 .lifestyle{
@@ -323,6 +475,17 @@ p{
     z-index: 2;
     filter:invert();
    
+
+}
+.arrow-1{
+    cursor: pointer;
+    height:50px;
+    width:50px;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 70%;
+    z-index: 2;
+    filter:invert();
 
 }
 
@@ -467,4 +630,230 @@ p{
     margin-top: 40px;
     margin-left: 40%;
     cursor: pointer;
+}
+
+
+
+
+
+/* Media-Queries */
+
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+
+    .hvideo{
+        height: 100vh;
+        width: 1250px;
+    }
+
+    .header-text,.header1-text{
+        font-size: 1.5rem;
+    }
+
+    .header1-text{
+        margin-top: 36vh;
+    }
+    .text-1{
+        font-size: 20px;
+    }
+    .right-content{
+        width:0%;
+    }
+
+    .text-content{
+        padding-top: 1.5rem;
+        margin-left: 0%;
+        font-size: 10px;
+    }
+    .content-1{
+        background-image: none;
+    }
+    .left-content{
+        width: 100%;
+    }
+
+    .img-left{
+        height: 40%;
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 25rem;
+    }
+    .row{
+        display :block;
+    }
+    .htext{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .arrows{
+        display: block;
+    }
+    .left-arrow,.right-arrow{
+        width: 10%;
+    }
+    .slide img{
+        height: 400PX;
+        width: 350px;
+    }
+
+    .slider{
+        height: 500px;
+    }
+    .gtext1,.gtext2{
+        font-size: 30px;
+    margin-left: 2rem;
+    }
+
+    .description{
+    font-size: 14px;
+    margin-left: -1rem;
+    }
+    .places{
+        margin-left: -2rem;
+        font-size: 14px;
+    }
+    
+    p{
+        margin-left: 45px;
+    }
+
+    .globe{
+        height:80%;
+    }
+
+    .globe > img{
+        height: 100%;
+    width: 100%;
+    }
+
+    .black-box,.bb-image{
+    display:none;
+    }
+
+    .content-5{
+        display:block;
+    }
+
+    .img-5{
+        height: 30%;
+    position: relative;
+    }
+    .img{
+        height: 50vh;
+    }
+    .img3{
+        height: 40vh;
+    width: 100%;
+    position: relative;
+}
+    .arrow{
+        margin-top: 25%;
+    }
+    .experiences,.lifestyle{
+        margin-top: 10%;
+    }
+    .wellness{
+        margin-top: -12rem;
+        position: absolute;
+        color: #fff;
+        letter-spacing: 2px;
+        font-weight: 100;
+        font-size: 40px;
+        z-index: 2;
+    }
+
+    .arrow-1{
+
+        cursor: pointer;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-left: -13rem;
+    z-index: 2;
+    filter: invert();
+    margin-top: 9rem;
+    }
+    .img-screen{
+        display:block;
+        width:80%;
+        padding-left: 2rem;
+        height:90%;
+    }
+    .img-left{
+        padding-top: 3rem;
+        height: 90%;
+    }
+
+    .black-box1{
+        height: 43%;
+        display:block;
+        
+    }
+    .bb-image1{
+        width: 32vw;
+    height: 40vh;
+    }
+    .bb-details1{
+        height:100%;
+    }
+    .arr1{
+        height: 60px;
+    }
+
+    .l-arrow1,.r-arrow1{
+        height: 20px;
+    width: 20px;
+    }
+
+    .weather1{
+        margin-left: -3vw;
+    }
+    .img-sun1,.img-direction1{
+        width: 5vw;
+    }
+    .temp-value1,.wind-value1,.direction-value1{
+        font-size: 10px;
+    }
+    .wind1,.direction1{
+        margin-left: 5vw;
+    }
+
+    .img-wind1{
+        width: 6.2vw;
+        
+    }
+    .weather1{
+        margin-top: -2.5rem;
+    }
+    .Heading1{
+        height: 15vh;
+    }
+    .stext-value1{
+        font-size: 0.7rem;
+        color: grey;
+        padding: 1px;
+        padding-left: 20px;
+    }
+    .btext-value1{
+        font-size: 1.3rem;
+        font-family: 'Benne', serif;
+        padding-left: 24px;
+    }
+
+    .location-icon1{
+        width: 4vw;
+    height: 3vh;
+    padding-top: 1px;
+    padding-left: 2px;
+}
+    .location-text1{
+        color: white;
+    font-size: 9px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+    
+
+   
+
 }
