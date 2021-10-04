@@ -50,31 +50,6 @@ gallery.forEach(element => {
 document.querySelector('#main-gallery').innerHTML = content;
 }
 
-function header_gallery(){
-    var content = ` <img class="image1" src="../Assets/gallery/img1.jpg"  alt="" style="width:100%;">
-    <div class = "item-container">
-    <div class="logo-content">
-        <img class="logo" src="../Assets/images/logo-final.svg" alt="">
-    </div>
-        <div class="nav-content">
-           <div class="div-items"><a href="#">About DLC</a></div>
-            <div class="div-items"><a href="../pages/OurWorlds.html"">Our Worlds</a></div>
-            <div class="div-items"><a href="#">Experiences</a></div>
-            <div class="div-items"><a href="../pages/gallery.html">Gallery</a></div>
-            <div class="div-items"><a href="#">Press</a></div>
-    <div class="container" onclick="navBar()">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-    </div>
- </div>
- <div class="gallery-item">
-    <p>Gallery</p>
-</div>
-</div>`
-
-document.querySelector('#header-content').innerHTML = content;
-}
 
 
 function navBar(){

@@ -175,47 +175,73 @@ function home_images(){
 
 
 
-function videoImage1() {
-    const content = `<div video1">
-    <video class="img_v1" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236"  data-length=""  muted loop autoplay playsinline></video>
-    <button class="closebtn" onclick="document.querySelector('#img_video1').innerHTML=''">&times;</button>
+function video1(){
+    const content = `<img class="cross" src="/Assets/home/close.png" alt="" onclick="noVideo()">
+    <div class="video1-text">
+        <div class="title">Experiences</div>
+        <div class="inner">Experince the ultimate round of golf on championship</div>
+        <div class="inner">courses designed by the world’s most highly acclaimed</div>
+        <div class="inner">architects or take a thrilling adventure with limitless</div>
+        <div class="inner">activities for everyone to enjoy.</div>
+        <div class="explore-button">Explore</div>
     </div>
-  <h1 class="v_title">Experiences</h1>
-  <p class="p_text">
-    Experience the ultimate round of golf on championship courses designed by the world’s most highly acclaimed architects or take a thrilling adventure with limitless activities for everyone to enjoy.
-  </p>
-  <button type="button" class="btn">Explore</button>`
-
-  document.querySelector('#img_video1').innerHTML = content;
-
+    <video class="video-home" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236" autoplay loop="" muted></video>`
+    document.querySelector('.video-div').innerHTML=content;
+    document.querySelector('#content-5').classList.remove('content-5');
+    document.querySelector('#content-5').innerHTML = ''; 
 }
 
-function videoImage2() {
-    const content = `<div video1">
-    <video class="img_v2"../Assets/home/video2.mp4" data-length="" muted loop autoplay playsinline></video>
-    <button class="closebtn" onclick="document.querySelector('#img_video2').innerHTML=''">&times;</button>
+function video2(){
+    const content = `<img class="cross" src="/Assets/home/close.png" alt="" onclick="noVideo()">
+    <div class="video1-text">
+        <div class="title">Lifestyle</div>
+        <div class="inner">Relish the very best times of your life with the ones you</div>
+        <div class="inner">love in our bespoke communities that cater to a family</div>
+        <div class="inner">orientated lifestyle through unparalleled amenities and</div>
+        <div class="inner">inspired experiences.</div>
+        <div class="explore-button">Explore</div>
     </div>
-  <h1 class="v_title">Lifestyle</h1>
-  <p class="p_text">
-  Relish the very best times of your life with the ones you love in our bespoke communities that cater to a family orientated lifestyle through unparalleled amenities and inspired experiences. 
-  </p>
-  <button type="button" class="btn">Explore</button>`
-
-  document.querySelector('#img_video2').innerHTML = content;
-
+    <video class="video-home" src="../Assets/home/video2.mp4" autoplay loop="" muted></video>`
+    document.querySelector('.video-div').innerHTML=content;
+    document.querySelector('#content-5').classList.remove('content-5');
+    document.querySelector('#content-5').innerHTML = ''; 
 }
 
-function videoImage3() {
-    const content = `<div video1">
-    <video class="img_v3" src="../Assets/home/video3.mp4" data-length="" muted loop autoplay playsinline></video>
-    <button class="closebtn" onclick="document.querySelector('#img_video3').innerHTML=''">&times;</button>
-    </div>
-  <h1 class="v_title">Wellness</h1>
-  <p class="p_text">
-  Relax and refresh your body and your mind in exquisite surroundings. Escape to our stunning pools, unwind in relaxing spas and explore innovative international culinary offerings.
-  </p>
-  <button type="button" class="btn">Explore</button>`
 
-  document.querySelector('#img_video3').innerHTML = content;
+function video3(){
+    const content = `<img class="cross" src="/Assets/home/close.png" alt="" onclick="noVideo()">
+    <div class="video1-text">
+        <div class="title">Welness</div>
+        <div class="inner">Relax and refresh your body and your mind in exquisite</div>
+        <div class="inner">surroundings. Escape to our stunning pools, unwind in</div>
+        <div class="inner">relaxing spas and explore innovative international</div>
+        <div class="inner">culinary offerings.</div>
+        <div class="explore-button">Explore</div>
+    </div>
+    <video class="video-home" src="../Assets/home/video2.mp4" autoplay loop="" muted></video>`
+    document.querySelector('.video-div').innerHTML=content;
+    document.querySelector('#content-5').classList.remove('content-5');
+    document.querySelector('#content-5').innerHTML = ''; 
+}
+
+
+function noVideo(){
+    document.querySelector('.video-div').innerHTML='';
+    document.querySelector('#content-5').classList.add('content-5');
+    document.querySelector('#content-5').innerHTML = `<div class="img-5">
+    <img class="img" src="/assets/home/manexp.jpg"alt="">
+        <h1 class="experiences">Experiences</h1>
+        <img class="arrow" src="/Assets/home/right.png" alt="" onclick="video1()">
+    </div>
+    <div class=""img-5"">
+        <img class="img" src="/Assets/home/lifestyle.jpg" alt="">
+        <h1 class="lifestyle">Lifestyle</h1>
+        <img class="arrow" src="/Assets/home/right.png" alt="" onclick="video2()">
+    </div>
+    <div class=""img-5"">
+        <img class="img" src="/Assets/home/wellness.jpg" alt="">
+        <h1 class="wellness">Welness</h1>
+        <img class="arrow" src="/Assets/home/right.png" alt="" onclick="video3()">
+    </div>`; 
 
 }
