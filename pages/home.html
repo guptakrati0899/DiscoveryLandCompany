@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <script src="https://fontawesome.com/v5.15/icons?d=gallery&p=2&c=arrows"></script>
 
     <link rel="stylesheet" href="../css/design.css">
     <link rel="stylesheet" href="../css/home.css">
@@ -71,6 +72,8 @@
             </div>
         </div>
     </div>
+
+    <!-- Slider -->
     <div class="slider">
         <div class="slide-track">
            
@@ -80,7 +83,7 @@
 
     <!-- Content 3 -->
 
-<div class = "globe">
+<div class = "world">
     <div class = "globe-text">
         <div class="gtext1">Lands of</div>
         <div class="gtext2">Discovery</div>
@@ -93,26 +96,92 @@
         </div>
 
     </div>
-<div class ="world-map"></div>
-<div class ="place-box">        
+
+<div class="black-box">
+    <img class="bb-image" src="/Assets/home/i10.jpg" alt="">
+    <div class="bb-details">
+        <div class ="content-box">
+        <div class="arr">
+            <div class="l-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.06 20.91">
+                    <path
+                        d="M28.06 9.81H2.2l8.89-8.9c.01-.03-.9-.91-.9-.91l-10 10c0 .01-.01.01-.02.02l-.04.04c-.01.01-.02.02-.02.03-.01.01-.02.03-.03.05-.01.01-.01.03-.02.04 0 .01-.01.02-.01.03v.02c-.01.01-.01.03-.01.04 0 .02-.01.03-.01.05 0 .01 0 .03-.01.04 0 .02 0 .03-.01.05v.1c0 .02 0 .03.01.05 0 .01 0 .03.01.04 0 .02.01.03.01.05 0 .01.01.03.01.04 0 .01 0 .01.01.02 0 .01.01.02.02.03.01.01.01.03.02.04.01.02.02.03.03.05.01.01.02.02.02.03.01.01.02.03.04.04l.02.02 10 10c0 .01.91-.91.91-.91L2.2 11.1h25.86V9.81z">
+
+                    </path>
+                </svg>
+
+            </div>
+            <div class="r-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.06 20.91">
+                    <path
+                        d="M0 11.1h25.86L16.97 20c0 .04.91.92.91.91l10-10c0-.01.01-.01.02-.02l.04-.04c.01-.01.02-.02.02-.03.01-.01.02-.03.03-.05.01-.01.01-.03.02-.04 0-.01.01-.02.01-.03v-.02c.01-.01.01-.03.01-.04 0-.02.01-.03.01-.05 0-.01 0-.03.01-.04 0-.02 0-.03.01-.05v-.05-.05c0-.02 0-.03-.01-.05 0-.01 0-.03-.01-.04 0-.02-.01-.03-.01-.05 0-.01-.01-.03-.01-.04 0-.01 0-.01-.01-.02 0-.01-.01-.02-.02-.03-.01-.01-.01-.03-.02-.04-.01-.02-.02-.03-.03-.05-.01-.01-.02-.02-.02-.03-.01-.01-.02-.03-.04-.04.01 0 0-.01 0-.01l-10-10c0-.01-.91.91-.91.91l8.89 8.9H0v1.29z">
+            
+                    </path>
+                </svg>
+            
+            </div>
+
+        </div>
+        <div class="weather">
+            <div class ="temp">
+               <img class = "img-sun" src = "../Assets/home/sun.png.crdownload" alt="">
+               <div class="temp-value">80° F</div>
+         </div>
+            <div class ="wind">
+                <img class = "img-wind" src = "../Assets/home/wind-background-10.png.crdownload" alt="">
+               <div class="wind-value">3.44 mph </div>
+                
+            </div>
+            <div class ="direction">
+                <img class = "img-direction" src = "../Assets/home/compass.png" alt="">
+                <div class="direction-value">260°</div>   
+            </div>
+        </div>
+        <div class="Heading">
+            <div class = "small-text">
+                <div class ="stext-value">Cabo San Lucas , Mexico</div>
+            </div>
+            <div class="big-text">
+                <div class ="btext-value">Chileno Bay</div>
+            </div>
+            </div>
+            <div class = "location">
+                <img class="location-icon" src="../Assets/home/loaction.png" alt="">
+                <div class = "location-text">  22.954708° N / -109.816218° W</div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<div class="globe">
+    <img src="/Assets/home/globe-usa.jpg" alt="">
+</div>
 </div>
 </div>
 
-<!-- Content 4 -->
 
-<div class="content-4">
-    <div class="c4-img" id="img_video1">
-        <img class="img-4" src="../Assets/home/manexp.jpg" onclick="videoImage1()">
-        
-        <div class="title-4">Experiences</div>
+<!-- Content 5 -->
+
+<div class="video-div">
+</div>
+
+<div class="content-5" id="content-5">
+    <div class="img-5">
+        <img class="img" src="/Assets/home/manexp.jpg" alt="">
+        <h1 class="experiences">Experiences</h1>
+        <img class="arrow" src="/Assets/home/rightarrowfinal.png.crdownload" alt="" onclick="video1()">
     </div>
-    <div class="c4-img" id="img_video2">
-        <img class="img-4" src="../Assets/home/lifestyle.jpg" onclick="videoImage2()">
-        <div class="title-4">Lifestyle</div>
+    <div class="img-5">
+        <img class="img" src="/Assets/home/lifestyle.jpg" alt="">
+        <h1 class="lifestyle">Lifestyle</h1>
+        <img class="arrow" src="/Assets/home/rightarrowfinal.png.crdownload" alt="" onclick="video2()">
     </div>
-    <div class="c4-img" id="img_video3">
-        <img class="img-4" src="../Assets/home/wellness.jpg" onclick="videoImage3()">
-        <div class="title-4">Wellness</div>
+    <div class="img-5">
+        <img class="img" src="/Assets/home/wellness.jpg" alt="">
+        <h1 class="wellness">Wellness</h1>
+        <img class="arrow" src="/Assets/home/rightarrowfinal.png.crdownload" alt="" onclick="video3()">
     </div>
 </div>
 
