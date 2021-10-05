@@ -8,7 +8,7 @@ function headerContent() {
         <div class="nav-content">
            <div class="div-items"><a href="../pages/AboutDLC.html">About DLC</a></div>
             <div class="div-items"><a href="../pages/OurWorlds.html"">Our Worlds</a></div>
-            <div class="div-items"><a href="#">Experiences</a></div>
+            <div class="div-items"><a href="../pages/Experiences.html">Experiences</a></div>
             <div class="div-items"><a href="../pages/gallery.html">Gallery</a></div>
             <div class="div-items"><a href="#">Press</a></div>
     <div class="container" onclick="navBar()">
@@ -34,7 +34,7 @@ function navBar(){
             <div class="nav1-content">
                 <div class="nav1-items"><a style="font-size:35px;" href="../pages/AboutDLC.html">About DLC</a></div>
                 <div class="nav1-items"><a style="font-size:35px;" href="../pages/OurWorlds.html">Our Worlds</a></div>
-                <div class=" nav1-items"><a style="font-size:35px;" href="#">Experiences</a></div>
+                <div class=" nav1-items"><a style="font-size:35px;" href="../pages/Experiences.html">Experiences</a></div>
                 <div class="nav1-items"><a style="font-size:35px;" href="../pages/gallery.html">Gallery</a></div>
                 <div class="nav1-items"><a style="font-size:35px;" href="#">Press</a></div>
             </div>
