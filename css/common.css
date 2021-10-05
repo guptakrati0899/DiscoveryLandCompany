@@ -1,0 +1,134 @@
+/* Header Video Home & Experiences */
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x:  hidden;
+}
+
+.header-video{
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+  
+}
+header{
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: initial;
+    z-index: 3;
+}
+
+.hvideo{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+.header-text{
+    position: absolute;
+    z-index: 4;
+    margin-left: 25%;
+    margin-top: 32vh;
+    font-size: 6rem;
+    color: #fff;
+    font-family: 'Benne', serif;
+}
+
+.header1-text{
+    position: absolute;
+    z-index: 4;
+    margin-left: 25%;
+    margin-top: 42vh;
+    font-size: 6rem;
+    color: #fff;
+    font-family: 'Benne', serif;
+}
+
+
+
+/* Section-2 About DLC & Experiences */
+
+.section2_dlc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10%;
+    height: 135vh;
+}
+
+.left_sec1 {
+    position: relative;
+    left: 15%;
+    top: 18%;
+    width: 66%;
+}
+
+.h_dlc {
+    font-family: 'Spectral', serif;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.p_dlc {
+    font-family: Montserrat;
+    color: rgb(121, 117, 117);
+    font-size: 0.8rem;
+    line-height: 1.8rem;
+}
+
+.dlc_img1 {
+    width: 38vw;
+    height: 82vh;    
+    width: 40vw;
+    position: relative;
+    top: 10%;
+    height: 105vh;
+}
+
+
+
+
+/* section 10  About DLC & Experiences*/
+.section10_dlc {
+    height: 80vh;
+    width: 100vh;
+}
+
+.section10_dlc a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.dlc_img9 {
+    height: 80vh;
+    width: 250vh;
+    filter: brightness(65%);
+}
+
+.h3_dlc {
+    position: relative;
+    bottom: 75%;
+    left: 92%;
+    font-size: 2.7rem;
+    letter-spacing: 0.3rem;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    position: relative;
+    bottom: 69%;
+    left: 100%;
+    border: 1px solid rgb(204, 198, 198);
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 20px 50px;
+}
+
