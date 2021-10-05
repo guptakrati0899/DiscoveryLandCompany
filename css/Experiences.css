@@ -1,0 +1,28 @@
+/* Section-1 */
+
+
+.section1_dlc {
+    font-family: 'Spectral', serif;
+    font-size: 1.9rem;
+    left: 15%;
+    opacity: 1;
+    width: 80%;
+    height: 50vh;
+    color: #111;
+    letter-spacing: 1.5px;
+}
+
+.section1_dlc > p{
+
+    width: 75%;
+    margin-left: 20rem;
+    margin-top:10rem;
+
+}
+
+.h1_dlc{
+    font-family: 'Spectral', serif;
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top:-2rem;
+}
