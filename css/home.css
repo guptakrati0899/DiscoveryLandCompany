@@ -853,7 +853,228 @@ p{
     padding-left: 5px;
 }
     
-
    
 
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .hvideo{
+        height: 100%;
+        width: 1150px;
+     
+    }
+
+    .header-text,.header1-text{
+        font-size: 4rem;
+    }
+
+    .header1-text{
+        margin-top: 39vh;
+    }
+    .text-1{
+        margin-left:50px;
+        font-size: 35px;
+    }
+    .right-content{
+        width:0%;
+    }
+
+    .text-content{
+        padding-top: 1.5rem;
+        margin-left: 0%;
+        font-size: 20pxpx;
+    }
+    .content-1{
+        background-image: none;
+    }
+    .left-content{
+        width: 100%;
+    }
+
+    .img-left{
+        height: 40%;
+        width: 100%;
+        margin-left: 0%;
+        padding-top: 1rem;
+    }
+    .row{
+        display :block;
+    }
+    .htext{
+        margin-top:50rem;
+        font-size: 50px;
+        margin-left: 40px;
+    }
+    .arrows{
+        margin-top:5rem;
+        margin-left: 40px;
+        display: block;
+    }
+    .left-arrow,.right-arrow{
+        width: 10%;
+    }
+    .slide img{
+        height: 450PX;
+        width: 370px;
+    }
+
+    .slider{
+        height: 650px;
+    }
+    .gtext1,.gtext2{
+        font-size: 40px;
+    margin-left: 2rem;
+    }
+
+    .description{
+    font-size: 16px;
+    margin-left: -1rem;
+    }
+    .places{
+        margin-left: -1rem;
+        font-size: 16px;
+    }
+    
+    p{
+        margin-left: 45px;
+    }
+
+    .globe{
+        height:80%;
+    }
+
+    .globe > img{
+        height: 100%;
+    width: 100%;
+    }
+
+    .black-box,.bb-image{
+    display:none;
+    }
+
+    .content-5{
+        height:50%;
+        display:grid;
+    }
+
+  
+    .img{
+        height: 50vh;
+    }
+    .img3{
+        height: 50vh;
+    width: 100%;
+    position: relative;
+}
+    .arrow{
+        margin-top: 75%;
+    }
+    .experiences,.lifestyle{
+        margin-top: 40%;
+        margin-left:45px;
+        font-size:35px;
+    }
+    .wellness{
+        margin-left:35px;
+        margin-top: -23rem;
+        color: #fff;
+        letter-spacing: 2px;
+        font-weight: 100;
+        font-size: 40px;
+      
+    }
+
+    .arrow-1{
+
+        cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin-left: -10rem;
+    filter: invert();
+    margin-top: 12rem;
+    }
+
+    .img-screen{
+        display:block;
+        width:80%;
+        padding-left: 2rem;
+        height:90%;
+    }
+    .img-left{
+        padding-top: 3rem;
+        height: 90%;
+    }
+
+    .black-box1{
+        height: 50%;
+        display:block;
+        
+    }
+    .bb-image1{
+        width: 36vw;
+    height: 43vh;
+    }
+    .bb-details1{
+        height:100%;
+    }
+    .arr1{
+        height: 70px;
+    }
+
+    .l-arrow1,.r-arrow1{
+        height: 20px;
+    width: 30px;
+    }
+
+    .weather1{
+        margin-left: -5vw;
+    }
+    .img-sun1,.img-direction1{
+        width: 6vw;
+    }
+    .temp-value1,.wind-value1,.direction-value1{
+        font-size: 15px;
+    }
+    .wind1,.direction1{
+        margin-left: 6vw;
+    }
+
+    .img-wind1{
+        width: 6.4vw;
+        
+    }
+    .weather1{
+        margin-top: -1rem;
+    }
+    .Heading1{
+        height: 15vh;
+    }
+    .stext-value1{
+        font-size: 1.5rem;
+        color: grey;
+        padding: 1px;
+        padding-left: 1px;
+    }
+    .btext-value1{
+        font-size: 2.5rem;
+        font-family: 'Benne', serif;
+        padding-left: 5px;
+    }
+
+    .location-icon1{
+        width: 5vw;
+    height: 4vh;
+    padding-top: 0px;
+    padding-left: 2px;
+}
+    .location-text1{
+        color: white;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+        
 }
