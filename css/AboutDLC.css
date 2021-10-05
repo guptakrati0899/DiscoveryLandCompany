@@ -334,23 +334,16 @@ header {
 
 @media screen and (min-width: 360px) and (max-width: 640px) {
     /* header */
-    .logo-img1 {
-        width: 120%;
-    }
-    .header-content {
-        width: 80%;
-    }
-    .item-container {
-        top: 5.5rem;
-    }
-    .dlc_head {
+ 
+  
+   .dlc_head {
         height: 100vh;
     }
     .dlc_head_img {
         height: 100vh;
     } 
     .dlc_title {
-        top: 46%;
+        top: 43%;
         left: 9%;
     } 
     .dlc_title1 {
@@ -366,14 +359,11 @@ header {
     }
     .scroll_btn {
         top: 79%;
-        right: 37%;
+        right: 45%;
         height: 11vh;
         width: 21vw;
     }
-    .close-img {
-        top: 11%;
-        right: 12.5%;
-    }    
+     
     /* section 1 */
     .section1_dlc {
         font-size: 1.3rem;
@@ -390,24 +380,29 @@ header {
         height: 130vh;
         grid-template-columns: 1fr;
     }
-    .dlc_img0 {
-        display: block;
-        width: 84vw;
-        height: 52vh;
-    }
+    .right_sec1{
+        margin-left: -17rem;
+        margin-top: -5rem;
+     
+     }
+     .right_sec1 > img{
+         height:60vh;
+         width:70vw;
+     }
+   
     .left_sec1 {
         left: 8%;
-        top: 4%;
+        margin-top: 20%;
     }
     .h_dlc {
         position: relative;
-        top: 3%;    
+        top: 25%;    
     }
     .p_dlc {
         position: relative;
         font-size: 0.8rem;
         color: black;
-        top: 2%;
+        top: 24%;
         width: 80vw;
         line-height: 1.4rem;
     }
@@ -416,36 +411,34 @@ header {
         height: 37vh;
         width: 100vw;
         position: relative;
-        top: 5%;
+        top: 12%;
     }
-    .dlc_img1 {
-        display: none;
-    }
+    
     .dlc_img2 {
         height: 30vh;
     }
     /* section 4 */
+  
+    .arrows{
+        margin-top:5rem;
+        margin-left: 1rem;
+        display: block;
+    }
+    .left-arrow,.right-arrow{
+        width: 13%;
+    }
     .section4_dlc {
         height: 24vh;
         flex-flow: column;
     }
     .dlc {
         position: relative;
-        top: 18%;
+        top: 38%;
         left: 4%;
         width: 24rem;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
-    .arrows1 ul {
-        top: 110%;
-        left: 54%;
-    }
-    .arrows1 ul li.prev span {
-        left: 6.5%;
-    }
-    .arrows1 ul li.next span {
-        left: 28.5%;
-    }
+   
     /* section 5 */
     .section5_dlc {
         height: 50vh;
@@ -552,21 +545,18 @@ header {
         height: 43.5vh;
     }
     .dlc_img9 {
-        height: 44vh;
+        height: 40vh;
         width: 60vh;    
     }
     .h3_dlc {
-        left: 10%;
-        top: -82%;
+        position: relative;
+        margin-left: -38rem;
         font-size: 2.4rem;
     }
     .btn {
-        left: 16%;
-        top: -81%;
+        margin-left: -38rem;
     }
-    .footer-container {
-        height: 60%;
-    }
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px)  {
@@ -601,45 +591,86 @@ header {
         width: 80%;
         height: 30%;
     }
+
+    /* Section2 */
     .section2_dlc {
         position: relative;
         top: 25%;
         grid-template-rows: 1fr;
     }
     .right_sec1{
-       
-        margin-top:-105rem;
+       margin-left: -33rem;
+        margin-top:-50rem;
+    
     }
+    .right_sec1 > img{
+        height:60vh;
+        width:60vw;
+    }
+
+
+    
+    .h_dlc {
+       
+        margin-top: -50%;   
+        margin-left: 30%; 
+    }
+    .p_dlc {
+       
+        font-size: 1rem;
+        margin-left: 30%; 
+        color: black;
+        top: 2%;
+        width: 60vw;
+        line-height: 1.4rem;
+    }
+
+
     .section3_dlc {
         position: relative;
-        height: 42vh;
-        top: -45%;
+        height: 48vh;
+        top: -55%;
     }
+    .dlc{
+        font-size: 80px;
+        margin-top:-20rem;
+    }
+    .arrows{
+        margin-top:-33rem;
+        margin-left: 20rem;
+        display: block;
+    }
+    .left-arrow,.right-arrow{
+        width: 25%;
+    }
+
+    
     .section4_dlc {
+       
         position: relative;
-        height: 16vh;
+        height: 18vh;
     }
 
     .section5_dlc {
         position: relative;
-        top: 37%;
+        top: 30%;
     }
     .section6_dlc {
         position: relative;
-        height: 43vh;
-        top: 36%;
+        height: 35vh;
+        top: 30%;
     }
     .left_sec1 {
-        top: 2%;
-        left: 28%;
-        width: 44%;
+        top: 10%;
+        left: 50%;
+        width: 50%;
     }
     .p_dlc {
         font-size: 0.9rem;
     }
     .dlc_img1 {
         width: 63vw;
-        top: -11%;
+        top: 10%;
         left: 20%;
         height: 66vh;
     }
@@ -652,10 +683,7 @@ header {
         top: -132%;
         left: 9%;
     }
-    .arrows1 ul {
-        top: -120%;
-        left: 234%;
-    }
+  
     .track img {
         height: 48vh;
         width: 55vw;
@@ -686,14 +714,14 @@ header {
     .p1_dlc {
         top: -4%;
         left: 12%;
-        width: 43%;
+        width: 48%;
         font-size: 1rem;
     }
     .dlc_img5 {
         display: none;
     }
     .dlc_img6 {
-        height: 38vh;
+        height: 40vh;
     }
     .section8_dlc {
         position: relative;
@@ -701,7 +729,7 @@ header {
         height: 38vh;
     }
     .section9_dlc {
-        margin-top: -125%;
+        margin-top: -115%;
         height: 140vh;
         grid-template-columns: 1fr;
     }
@@ -717,29 +745,30 @@ header {
     .p2_dlc {
         font-size: 1rem;
         left: 12%;
-        width: 54%;
+        width: 52%;
     }
     .dlc_img8 {
-        height: 74vh;
-        width: 78vw;
-        left: 11%;
+        height: 70vh;
+        width: 70vw;
+        left: 15%;
         margin-top: -12%;
     }
     .section10_dlc {
+        margin-top: 20%;
         position: relative;
         height: 40vh;
     }
     .dlc_img9 {
+       
         height: 40vh;
-        width: 77vh;
+       
     }
     .h3_dlc {
-        left: 31%;
+        position: relative;
+        margin-left: -38rem;
     }
     .btn {
-        left: 36%;
+        margin-left: -38rem;
     }
-    .footer-container {
-        height: 33%;
-    }
+   
 }
