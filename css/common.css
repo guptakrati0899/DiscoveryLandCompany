@@ -58,7 +58,7 @@ header{
 .section2_dlc {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10%;
+    grid-gap: 1%;
     height: 135vh;
 }
 
@@ -97,7 +97,7 @@ header{
 /* section 10  About DLC & Experiences*/
 .section10_dlc {
     height: 80vh;
-    width: 100vh;
+    width: 90vw;
 }
 
 .section10_dlc a {
@@ -114,7 +114,7 @@ header{
 .h3_dlc {
     position: relative;
     bottom: 75%;
-    left: 92%;
+    left: 45%;
     font-size: 2.7rem;
     letter-spacing: 0.3rem;
     font-weight: lighter;
@@ -124,7 +124,7 @@ header{
 .btn {
     position: relative;
     bottom: 69%;
-    left: 100%;
+    left: 48%;
     border: 1px solid rgb(204, 198, 198);
     color: #fff;
     background-color: transparent;
@@ -162,10 +162,10 @@ header{
     }
     .h3_dlc {
         position: relative;
-        margin-left: -38rem;
+        margin-left: -3rem;
     }
     .btn {
-        margin-left: -38rem;
+        margin-left: -1rem;
     }
 
     
@@ -188,6 +188,25 @@ header{
 
     .header1-text{
         margin-top: 38vh;
+    }
+
+    .dlc_img9{
+        width:100vw;
+        height:30vh;
+    }
+
+    .section10_dlc{
+        height: 30vh;
+    }
+   
+    
+    .h3_dlc {
+        position: relative;
+        margin-left: -3rem;
+        font-size: 1.5rem;
+    }
+    .btn {
+        margin-left: -3rem;
     }
 
     

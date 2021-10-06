@@ -7,7 +7,7 @@
     left: 15%;
     opacity: 1;
     width: 80%;
-    height: 50vh;
+    height: 25vh;
     color: #111;
     letter-spacing: 1.5px;
 }
@@ -16,7 +16,7 @@
 
     width: 75%;
     margin-left: 20rem;
-    margin-top:10rem;
+    margin-top:7rem;
 
 }
 
@@ -51,7 +51,7 @@
 }
 
 .article-back1{
-    height: 73%;
+    height: 68%;
     width: 47%;
     background-color: lightgray;
 }
@@ -67,8 +67,8 @@
 .article-text1{
     direction: ltr;
     position: absolute;
-    height: 55vh;
-    width: 25vw;
+    height: 62vh;
+    width: 30vw;
     background-color: #fff;
     z-index: 5;
     margin-top: 7%;
@@ -78,12 +78,14 @@
 .article-text1 > h1{
  
     font-weight: 100;
+    margin-top: 5rem;
 }
 
 .article-text1 > p{
+    margin-top: 3rem;
     color: #777777;
     line-height: 150%;
-    font-size: 15px;
+    font-size: 18px;
     word-spacing: 1px;
 }
 
@@ -127,7 +129,7 @@
 }
 
 .article-back{
-    height: 73%;
+    height: 68%;
     width: 47%;
     background-color: lightgray;
 }
@@ -141,8 +143,8 @@
 
 .article-text{
     position: absolute;
-    height: 55vh;
-    width: 25vw;
+    height: 62vh;
+    width: 30vw;
     background-color: #fff;
     z-index: 5;
     margin-top: 7%;
@@ -152,12 +154,14 @@
 .article-text > h1{
  
     font-weight: 100;
+    margin-top: 5rem;
 }
 
 .article-text > p{
     color: #777777;
     line-height: 150%;
-    font-size: 15px;
+    margin-top: 3rem;
+    font-size: 18px;
     word-spacing: 1px;
 }
 
@@ -186,7 +190,7 @@
     }
 
     .right_sec1{
-        margin-left: -24rem;
+        margin-left: -20rem;
         margin-top: -10rem;
     }
 
@@ -215,7 +219,7 @@
 }
 .p_dlc >p {
    
-    font-size:5 rem;
+    font-size:1rem;
     margin-left: 30%; 
     color: black;
     top: 2%;
@@ -225,7 +229,7 @@
 
 .exp-article{
     height:80vh;
-    padding-bottom: 20rem;
+    padding-bottom: 10rem;
 }
 .articles{
     margin-top: 10%;
@@ -267,7 +271,7 @@
 
 
 .exp-article1{
-    padding-bottom: 35rem;
+    padding-bottom: 10rem;
     direction: ltr;
     height:80vh;
     
@@ -282,9 +286,7 @@
 @media screen and (min-width: 360px) and (max-width: 640px) {
 
 
-    .header-text,.header1-text{
-        font-size: 3.5rem;
-    }
+   
 
     .section1_dlc {
         font-size: 1.1rem;
@@ -294,7 +296,7 @@
     }
 
     .right_sec1{
-        margin-left: -16.5rem;
+        margin-left: -14rem;
         margin-top: -11rem;
     }
 
@@ -315,25 +317,27 @@
 .h_dlc {
     font-size: 1.5rem;
     margin-top: 160%;   
-    margin-left: 18%; 
+    margin-left: 5%; 
     color:#111;
 }
 .h1_dlc{
     font-size: 1.5rem;
-    margin-left: 18%;
+    margin-left: 5%; 
+  
 }
 .p_dlc >p {
    
-    font-size:5 rem;
+    font-size:0.8rem;
     margin-left: 1%; 
     color: black;
     top: 2%;
-    width: 80vw;
+    width: 75vw;
     line-height: 1.4rem;
 }
 
 .exp-article{
-    height:50vh;
+    padding-bottom: 18rem;
+    height:40vh;
 }
 .articles{
     margin-top: 10%;
@@ -379,38 +383,15 @@
 
 
 .exp-article1{
-    margin-top:20rem;
-    padding-bottom: 30rem;
+    margin-top:5rem;
+    padding-bottom: 22rem;
     direction: ltr;
     height:40vh;
     
 }
 
-.section10_dlc {
-    height: 35vh;
- 
-}
-.dlc_img9{
-    width: 50vh;
-}
 
-.h3_dlc {
-    position: relative;
-    margin-top:20rem;
-    margin-left: -38rem;
-    font-size: 2rem;
-}
-.btn {
-    margin-left: -38rem;
-}
 
-.footer_img{
-    margin-top: 19rem;
-    height: 50vh;
-    width:60%;
-
-}
- 
 
 
 }
