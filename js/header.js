@@ -2,6 +2,7 @@ window.onload = headerContent();
 
 function headerContent() {
     const headerHtml = `   <div class = "item-container">
+    <a href ="../pages/home.html">
     <div class="logo-content">
         <img class="logo" src="../Assets/images/logo-final.svg" alt="">
     </div>
@@ -10,7 +11,7 @@ function headerContent() {
             <div class="div-items"><a href="../pages/OurWorlds.html"">Our Worlds</a></div>
             <div class="div-items"><a href="../pages/Experiences.html">Experiences</a></div>
             <div class="div-items"><a href="../pages/gallery.html">Gallery</a></div>
-            <div class="div-items"><a href="#">Press</a></div>
+            <div class="div-items"><a href="../pages/press.html"></a></div>
     <div class="container" onclick="navBar()">
         <div class="bar1"></div>
         <div class="bar2"></div>
