@@ -854,8 +854,8 @@ p{
         margin-left: 40px;
     }
     .arrows{
-        margin-top:5rem;
-        margin-left: 40px;
+        margin-top: 2rem;
+        margin-left: 25px;
         display: block;
     }
     .left-arrow,.right-arrow{
@@ -945,7 +945,7 @@ p{
     .img-screen{
         display:block;
         width:80%;
-        padding-left: 2rem;
+        padding-left: 5rem;
         height:90%;
     }
     .img-left{
