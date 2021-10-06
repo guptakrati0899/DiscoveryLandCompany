@@ -815,19 +815,7 @@ p{
 
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .hvideo{
-        height: 100%;
-        width: 1150px;
-     
-    }
-
-    .header-text,.header1-text{
-        font-size: 4rem;
-    }
-
-    .header1-text{
-        margin-top: 39vh;
-    }
+   
     .text-1{
         margin-left:50px;
         font-size: 35px;
