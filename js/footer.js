@@ -10,11 +10,11 @@ function footerContent(){
         </div>
         <div class="footer-main">
         <div class ="list-2">
-        <div class="element"><a href="#">About DLC</a></div>
+        <div class="element"><a href="../pages/AboutDLC.html">About DLC</a></div>
         <div class="element"><a href="../pages/OurWorlds.html">Our Worlds</a></div>
-        <div class="element"><a href="#">Experiences</a></div>
+        <div class="element"><a href="../pages/Experiences.html">Experiences</a></div>
         <div class="element"><a href="../pages/gallery.html">Gallery</a></div>
-        <div class="element"><a href="#">Press</a></div>
+        <div class="element"><a href="../pages/gallery.html">Press</a></div>
         </div>
         <div class="list-3">
             <div class="element"><a href="#">Magazine</a></div>

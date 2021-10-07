@@ -37,7 +37,7 @@ function navBar(){
                 <div class="nav1-items"><a style="font-size:35px;" href="../pages/OurWorlds.html">Our Worlds</a></div>
                 <div class=" nav1-items"><a style="font-size:35px;" href="../pages/Experiences.html">Experiences</a></div>
                 <div class="nav1-items"><a style="font-size:35px;" href="../pages/gallery.html">Gallery</a></div>
-                <div class="nav1-items"><a style="font-size:35px;" href="#">Press</a></div>
+                <div class="nav1-items"><a style="font-size:35px;" href="../pages/press.html">Press</a></div>
             </div>
             <div class="nav2-content">
                 <div class="nav2-items"><a style="color:grey; font-size: 19px;" href="#">Magazine</a></div>
@@ -46,6 +46,13 @@ function navBar(){
                 <div class="nav2-items""><a style= " color:grey; font-size: 19px;" href="#">Company</a></div>
                 <div class="nav2-items""><a style= " color:grey; font-size: 19px;" href="#">Privacy</a></div>
             </div>
+            <div class="nav3-content">
+            <div class="nav3-items"><a style="color:grey; font-size: 35px;" href="#">Magazine</a></div>
+            <div class="nav3-items""><a style= " color:grey; font-size: 35px;" href="#">Careers</a></div>
+            <div class="nav3-items""><a style= " color:grey; font-size: 35px;" href="#">Foundation</a></div>
+            <div class="nav3-items""><a style= " color:grey; font-size: 35px;" href="#">Company</a></div>
+            <div class="nav3-items""><a style= " color:grey; font-size: 35px;" href="#">Privacy</a></div>
+        </div>
         </div>
     </div>`
 
