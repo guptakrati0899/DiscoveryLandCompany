@@ -295,6 +295,10 @@
         height: 40%;
     }
 
+    .section1_dlc >p {
+        margin-top: 1rem;
+    }
+
     .right_sec1{
         margin-left: -14rem;
         margin-top: -11rem;
@@ -316,7 +320,7 @@
  
 .h_dlc {
     font-size: 1.5rem;
-    margin-top: 160%;   
+    margin-top: 120%;  
     margin-left: 5%; 
     color:#111;
 }
